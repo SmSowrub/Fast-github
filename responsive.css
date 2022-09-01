@@ -1,0 +1,31 @@
+@media(max-width:991px){
+    .mobile-socile-icon {
+        display: flex;
+        justify-content: flex-end;
+       
+    }
+    .mobile-socile-icon i{
+        padding: 10px 10px 0;
+        font-size: 20px;
+        color: #010101;
+    }
+
+    .socile-icon{
+        display: none;
+    }
+
+    .tineone-text{
+        text-align: center;
+        width: 100%;
+        padding: 10px 0;
+        margin: 0 auto;
+    }
+    .tine-phone article{
+        padding: 10px 0;
+    }
+}
+@media(max-width:767px){
+    .form-control{
+        margin-bottom: 20px;
+    }
+}

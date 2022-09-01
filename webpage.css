@@ -1,0 +1,177 @@
+
+/*-------------------------------------------------
+ comon css
+------------------------------------------------*/
+img{
+   width: 100%;
+   height: auto;
+}
+
+a{
+    text-decoration: none;
+}
+p{
+    color: #7f8c8d;
+}
+li{
+    list-style: none;
+}
+
+ /*-------------------------------------------------
+ header css
+------------------------------------------------*/
+
+.heder-arya{
+    background-color:#f1c40f;
+    padding: 30px 0;
+   
+}
+.mobile-socile-icon {
+    display: none;
+}
+.meno-bar i,
+.socile-icon ul li i{
+    padding: 10px 10px 0;
+    font-size: 20px;
+    color: #010101;
+}
+.heder-bottom{
+    padding:90px 0 20px;
+}
+.slider-text{
+    text-align: center;
+}
+.slider-icon ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+}
+.slider-icon ul li{
+    border: 2px solid #010101;
+    margin: 0 18px;
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider-icon ul li{
+    color: #010101;
+    font-size: 25px;
+   
+}
+
+.carousel-indicators [data-bs-target]{
+    width: 10px;
+    height: 10px;
+    background-color:#010101;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+/* slide meno*/
+.js-meno{
+    background-color: darkslategray;
+    width: 200px;
+    height: 100vh;
+    position:absolute;
+    left:-200px;
+    top: 0;
+}
+.close-icon{
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+
+}
+
+.slide-meno ul li{
+    display: block;
+    padding: 10px 20px;
+    border-top: 1px dotted #7f8c8d;
+}
+.slide-meno ul li a{
+    text-transform: uppercase;
+    color: #fff;
+}
+
+
+.angels{
+    background-color: #7f8c8d;
+    padding:10px;
+    position:fixed;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 10px;
+    display: none;
+
+}
+
+
+
+/*-------------------------------------------------
+ tnie-slider css
+------------------------------------------------*/
+
+section{
+    padding: 80px;
+    color: #ecf0f1;
+}
+.tineone-text{
+    text-align: center;
+    width: 60%;
+    padding: 10px 0;
+    margin: 0 auto;
+}
+
+.tineone-text h2{
+    color: #010101;
+    font-size: 32px;
+}
+.tineone-text p{
+    color: #7f8c8d;
+    font-size: 16px;
+}
+.tine-phone article{
+    padding: 20px 0;
+}
+.tine-phone article h3{
+    color: #010101;
+    padding: 20px 0;
+}
+.col-lg-4{
+    position: relative;
+}
+.phone-logo{
+    width: 30%;
+    position: absolute;
+    top: 40%;
+    bottom: 50%;
+    left: 50%;
+    right:50%;
+    transform: translate(-50%,-50%);
+}
+
+/*-------------------------------------------------
+ footer css
+------------------------------------------------*/
+
+
+footer{
+    background-color: #010101;
+}
+
+.footer-botom{
+    color: #ecf0f1;
+    padding: 100px;
+
+}
